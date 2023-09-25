@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "picture": "https://i.ibb.co/wNdVvfF/Education.png",
+      "title": "Support School Supplies",
+      "category": "Education",
+      "category_bg": "bg-blue-500",
+      "card_bg": "bg-blue-400",
+      "text_button_bg": "bg-blue-700",
+      "description": "Help provide essential school supplies to underprivileged children to support their education.",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "picture": "https://i.ibb.co/nsw6P0b/Health.png",
+      "title": "Medical Relief Fund",
+      "category": "Health",
+      "category_bg": "bg-green-500",
+      "card_bg": "bg-green-400",
+      "text_button_bg": "bg-green-700",
+      "description": "Contribute to our medical relief fund to provide healthcare services to those in need.",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "picture": "https://i.ibb.co/WtR5zW8/Clothing.png",
+      "title": "Warm Winter Clothes Drive",
+      "category": "Clothing",
+      "category_bg": "bg-yellow-500",
+      "card_bg": "bg-yellow-400",
+      "text_button_bg": "bg-yellow-700",
+      "description": "Donate warm winter clothes to keep vulnerable individuals warm during the cold season.",
+      "price": 15
+    },
+    {
+      "id": 4,
+      "picture": "https://i.ibb.co/pJrmtvC/Food.png",
+      "title": "Food Relief Program",
+      "category": "Food",
+      "category_bg": "bg-red-500",
+      "card_bg": "bg-red-400",
+      "text_button_bg": "bg-red-700",
+      "description": "Support our food relief program to provide nutritious meals to hungry families and individuals.",
+      "price": 30
+    },
+    {
+      "id": 5,
+      "picture": "https://i.ibb.co/wNdVvfF/Education.png",
+      "title": "Scholarship Fund for Underprivileged Students",
+      "category": "Education",
+      "category_bg": "bg-blue-500",
+      "card_bg": "bg-blue-400",
+      "text_button_bg": "bg-blue-700",
+      "description": "Give the gift of education by contributing to our scholarship fund for deserving students.",
+      "price": 40
+    },
+    {
+      "id": 6,
+      "picture": "https://i.ibb.co/nsw6P0b/Health.png",
+      "title": "Emergency Medical Supplies",
+      "category": "Health",
+      "category_bg": "bg-green-500",
+      "card_bg": "bg-green-400",
+      "text_button_bg": "bg-green-700",
+      "description": "Provide essential medical supplies to hospitals and clinics in crisis situations.",
+      "price": 35
+    },
+    {
+      "id": 7,
+      "picture": "https://i.ibb.co/WtR5zW8/Clothing.png",
+      "title": "School Uniforms for Children",
+      "category": "Clothing",
+      "category_bg": "bg-yellow-500",
+      "card_bg": "bg-yellow-400",
+      "text_button_bg": "bg-yellow-700",
+      "description": "Help children in need by donating school uniforms for a brighter future.",
+      "price": 20
+    },
+    {
+      "id": 8,
+      "picture": "https://i.ibb.co/pJrmtvC/Food.png",
+      "title": "Community Food Bank",
+      "category": "Food",
+      "category_bg": "bg-red-500",
+      "card_bg": "bg-red-400",
+      "text_button_bg": "bg-red-700",
+      "description": "Support your local community by contributing to the food bank and helping those facing hunger.",
+      "price": 10
+    },
+    {
+      "id": 9,
+      "picture": "https://i.ibb.co/wNdVvfF/Education.png",
+      "title": "Digital Learning Resources",
+      "category": "Education",
+      "category_bg": "bg-blue-500",
+      "card_bg": "bg-blue-400",
+      "text_button_bg": "bg-blue-700",
+      "description": "Provide access to digital learning resources for students to enhance their education.",
+      "price": 30
+    },
+    {
+      "id": 10,
+      "picture": "https://i.ibb.co/nsw6P0b/Health.png",
+      "title": "Maternal Health Initiative",
+      "category": "Health",
+      "category_bg": "bg-green-500",
+      "card_bg": "bg-green-400",
+      "text_button_bg": "bg-green-700",
+      "description": "Support maternal health programs to ensure safe pregnancies and childbirth for mothers in need.",
+      "price": 45
+    },
+    {
+      "id": 11,
+      "picture": "https://i.ibb.co/WtR5zW8/Clothing.png",
+      "title": "Blanket Drive for Homeless",
+      "category": "Clothing",
+      "category_bg": "bg-yellow-500",
+      "card_bg": "bg-yellow-400",
+      "text_button_bg": "bg-yellow-700",
+      "description": "Donate blankets to provide warmth to homeless individuals during the cold months.",
+      "price": 15
+    },
+    {
+      "id": 12,
+      "picture": "https://i.ibb.co/pJrmtvC/Food.png",
+      "title": "Emergency Food Relief",
+      "category": "Food",
+      "category_bg": "bg-red-500",
+      "card_bg": "bg-red-400",
+      "text_button_bg": "bg-red-700",
+      "description": "Contribute to emergency food relief efforts to help those affected by natural disasters and crises.",
+      "price": 25
+    }
+  ]
+  
