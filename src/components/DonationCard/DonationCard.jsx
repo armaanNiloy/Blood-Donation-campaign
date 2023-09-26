@@ -5,7 +5,7 @@ const DonationCard = ({ donate }) => {
     const { picture, category, card_bg, title, category_bg, text_button_bg, id } = donate;
     console.log('home color', card_bg)
     return (
-        <Link to={`/donation/${id}`}>
+        <Link to={`/${id}`}>
             <div style={{backgroundColor: card_bg}} className="card shadow-xl">
                 <figure><img src={picture} alt="Shoes" /></figure>
                 <div className="card-body">
