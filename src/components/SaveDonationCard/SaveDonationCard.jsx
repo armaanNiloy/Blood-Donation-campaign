@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const SaveDonationCard = ({ donation }) => {
     const { picture, category, card_bg, title, category_bg, text_button_bg, id, price } = donation;
     return (
-        <div style={{ backgroundColor: card_bg }} className="card lg:card-side bg-base-100 shadow-xl">
+        <div style={{ backgroundColor: card_bg }} className="card lg:card-side shadow-xl">
             <figure><img src={picture} alt="Album" /></figure>
             <div className="card-body">
                 <button style={{ backgroundColor: category_bg }} className='p-2 w-[100px] rounded-md'>{category}</button>
