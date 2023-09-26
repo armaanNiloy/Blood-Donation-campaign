@@ -6,10 +6,11 @@ export default {
   ],
   theme: {
     extend: {
-      color: {
-        'white': '#ffffff',
-      },
+
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "dark", "cupcake"],
+  },
 }
