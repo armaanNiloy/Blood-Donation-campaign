@@ -31,14 +31,15 @@ const renderCustomizedLabel = ({
             textAnchor={x > cx ? "start" : "end"}
             dominantBaseline="central"
         >
-            {`${(percent * 100).toFixed(0)}%`}
+            {`${(percent * 100).toFixed(2)}%`}
         </text>
     );
 };
 
 function Statistics() {
-    const a = useLoaderData().length;
+    
     const b = getStoredDonation().length;
+    const a = useLoaderData().length - b;
     const data = [
         { name: "Group A", value: a },
         { name: "Group B", value: b },
@@ -66,11 +67,11 @@ function Statistics() {
             </div>
             <div className="flex justify-center items-center gap-10">
                 <div className="flex items-center">
-                    <h3 className="text-2xl mr-2">Your Donation</h3>
+                    <h3 className="text-2xl mr-2">Total Donation</h3>
                     <hr className="border-t-8 border-[#FF444A] w-20" />
                 </div>
                 <div className="flex items-center">
-                    <h3 className="text-2xl mr-2">Total Donation</h3>
+                    <h3 className="text-2xl mr-2">Your Donation</h3>
                     <hr className="border-t-8 border-[#00C49F] w-20" />
                 </div>
             </div>
