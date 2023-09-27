@@ -19,7 +19,7 @@ const Header = () => {
                     </ul>
                 </div>
                 {/* <a className="btn btn-ghost normal-case text-xl">Campaign</a> */}
-                <img src="/public/Logo.png" alt="" />
+                <img src="Logo.png" alt="" />
                 
             </div>
             <div className="navbar-end hidden lg:flex">

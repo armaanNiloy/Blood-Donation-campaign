@@ -34,7 +34,7 @@ const Home = () => {
                 <h2 className="text-base md:text-3xl lg:text-5xl font-bold absolute mt-10 md:mt-40 lg:mt-60 ml-5 md:ml-24 lg:ml-44 text-center">I Grow By Helping People In Need</h2>
             </div>
             <div>
-                <img className="opacity-30 md:h-1/2 w-fit md:w-full" src="/public/backimg.jpeg" alt="" />
+                <img className="opacity-30 md:h-1/2 w-fit md:w-full" src="backimg.jpeg" alt="" />
             </div>
             <div className="relative">
                 <form className="absolute -mt-28 md:-mt-52 lg:-mt-96 ml-6 md:ml-36 lg:ml-96 flex" onSubmit={handleDonationFilter}>

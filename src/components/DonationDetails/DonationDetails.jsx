@@ -9,7 +9,7 @@ const DonationDetails = () => {
     const { id } = useParams();
     const idx = parseInt(id);
     const donation = donations.find(donation => donation.id === idx);
-    const { picture, description, card_bg, title, category_bg, text_button_bg, price } = donation;
+    const { picture, description, title, text_button_bg, price } = donation;
     console.log(text_button_bg);
 
     const handleDonation = () => {
