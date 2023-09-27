@@ -21,7 +21,7 @@ const SaveDonation = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mx-40">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-2 md:mx-20">
                 {
                     appliedDonation.slice(0, dataLength).map(donation => <SaveDonationCard key={donation.id} donation={donation}></SaveDonationCard>)
                 }

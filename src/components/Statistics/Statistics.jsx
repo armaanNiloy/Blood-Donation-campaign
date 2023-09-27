@@ -55,7 +55,7 @@ function Statistics() {
                         cy={200}
                         labelLine={false}
                         label={renderCustomizedLabel}
-                        outerRadius={180}
+                        outerRadius={100}
                         fill="#8884d8"
                         dataKey="value"
                     >
@@ -65,13 +65,13 @@ function Statistics() {
                     </Pie>
                 </PieChart>
             </div>
-            <div className="flex justify-center items-center gap-10">
+            <div className="md:flex justify-center items-center gap-10">
                 <div className="flex items-center">
-                    <h3 className="text-2xl mr-2">Total Donation</h3>
+                    <h3 className="text-lg md:text-2xl mr-2">Total Donation</h3>
                     <hr className="border-t-8 border-[#FF444A] w-20" />
                 </div>
                 <div className="flex items-center">
-                    <h3 className="text-2xl mr-2">Your Donation</h3>
+                    <h3 className="text-lg md:text-2xl mr-2">Your Donation</h3>
                     <hr className="border-t-8 border-[#00C49F] w-20" />
                 </div>
             </div>

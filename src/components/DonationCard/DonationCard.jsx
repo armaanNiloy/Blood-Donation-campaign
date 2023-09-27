@@ -8,9 +8,9 @@ const DonationCard = ({ donate }) => {
         <Link to={`/${id}`}>
             <div style={{backgroundColor: card_bg}} className="card shadow-xl">
                 <figure><img src={picture} alt="Shoes" /></figure>
-                <div className="card-body">
-                    <button className="card-title">{category}</button>
-                    <p className={`${text_button_bg}`}>{title}</p>
+                <div className="card-body h-[200px]">
+                    <button style={{backgroundColor: category_bg, color: text_button_bg}} className="rounded-md w-1/2 p-1 text-lg font-semibold">{category}</button>
+                    <p style={{color: text_button_bg}} className='text-xl font-semibold'>{title}</p>
                 </div>
             </div>
         </Link>
